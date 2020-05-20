@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://tech-tricks.github.io/sitemap.xml
