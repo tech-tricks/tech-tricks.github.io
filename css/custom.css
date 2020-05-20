@@ -30,8 +30,7 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
     z-index: 2000;
 }
 
-@media screen and (max-width: 800px)
-.header {
+@media screen and (max-width: 800px) {
     .container .main {
         width: 100%;
     }
