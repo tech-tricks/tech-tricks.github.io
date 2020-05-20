@@ -7,9 +7,15 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
 .post {
     padding: 10px;
     margin: 10px 0;
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .8);
     border-radius: 10px;
 }
-.post+.post{
+.post+.post {
     border: none;
+}
+.slideout-panel {
+    background-color: none;
+}
+.container {
+    width: 80%;
 }
