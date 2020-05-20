@@ -6,7 +6,7 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
 
 .post {
     padding: 10px;
-    margin: 10px 0;
+    margin: 30px 0;
     background-color: rgba(255, 255, 255, .8);
     border-radius: 10px;
 }
@@ -14,7 +14,7 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
     border: none;
 }
 .slideout-panel {
-    background-color: none;
+    background-color: transparent;
 }
 .container {
     width: 80%;
