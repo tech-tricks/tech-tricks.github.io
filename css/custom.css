@@ -17,5 +17,15 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
     background-color: transparent;
 }
 .container {
+    width: 100%;
+}
+.container .header,
+.container .main {
     width: 80%;
+    margin: 0 auto;
+}
+.post-toc {
+    margin-left: unset;
+    right: 0;
+    z-index: 2000;
 }
