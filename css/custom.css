@@ -10,6 +10,9 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
     background-color: rgba(255, 255, 255, .8);
     border-radius: 10px;
 }
+.post:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
 .post+.post {
     border: none;
 }
@@ -26,6 +29,6 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
 }
 .post-toc {
     margin-left: unset;
-    right: 0;
+    right: 5px;
     z-index: 2000;
 }
