@@ -29,6 +29,9 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
     right: 5px;
     z-index: 2000;
 }
+.utterances {
+    max-width: unset;
+}
 
 @media screen and (max-width: 800px) {
     .container .main {
