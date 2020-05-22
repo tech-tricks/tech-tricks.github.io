@@ -19,10 +19,24 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
 .container {
     width: 100%;
 }
-.container .header,
-.container .main {
-    width: 80%;
-    margin: 0 auto;
+.main {
+    display: flex;
+}
+.content-wrapper {
+    padding: 0 50px;
+    flex: auto;
+}
+.sidebar-wrapper {
+    width: 320px;
+    padding: 30px 50px 0 0;
+    box-sizing: border-box;
+    flex: none;
+}
+.sidebar {
+    padding: 10px;
+    background-color: rgba(28,28,28,.1);
+    border-radius: 10px;
+    height: 350px;
 }
 .post-toc {
     margin-left: unset;
@@ -36,5 +50,13 @@ background: linear-gradient(#eee, rgba(222,112,6,0.2), #de7006),url(data:image/s
 @media screen and (max-width: 800px) {
     .container .main {
         width: 100%;
+        display: block;
+        
+    }
+    .content-wrapper {
+        padding: 0 20px;
+    }
+    .sidebar-wrapper {
+        display: none;
     }
 }
